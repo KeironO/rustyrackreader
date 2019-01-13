@@ -1,0 +1,13 @@
+[package]
+name = "rustyrackreader"
+version = "0.1.0"
+authors = ["KeironO <keiron.oshea@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+image = "*"
+tempfile = "3.0.5"
+
+[dependencies.rscam]
+version = "0.5.4"
+features = ["no_wrapper"]
